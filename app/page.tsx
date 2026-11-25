@@ -178,6 +178,9 @@ export default function Home() {
             <a href="#story" className="nav-link">
               OUR STORY
             </a>
+            <Link href="/admin/login" className="nav-link">
+              ADMIN
+            </Link>
           </nav>
 
           <a
@@ -225,6 +228,7 @@ export default function Home() {
                   ["COLLECTIONS", "#collections"],
                   ["OUR STORY", "#story"],
                   ["CONTACT", "#contact"],
+                  ["ADMIN LOGIN", "/admin/login"],
                 ].map(([label, href]) => (
                   <a
                     key={label}
